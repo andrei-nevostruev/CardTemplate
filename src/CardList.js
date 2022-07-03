@@ -5,6 +5,7 @@ const CardList = ({ robots }) => {
 	const cardComponent = robots.map((user, i)  => {
 			return (
 				<Card 
+				// key need to use for all elements in loop.
 				key={robots[i].id} 
 				id={robots[i].id} 
 				name={robots[i].name} 
