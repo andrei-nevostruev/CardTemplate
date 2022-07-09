@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
 //methods are called automatycaly by React. There are exact name of them.
@@ -42,7 +43,10 @@ class App extends Component {
 					<SearchBox searchChange={this.onSearchChange}/>
 					{/*filteredRobots is an new array*/}
 					<Scroll>
-						<CardList robots={filteredRobots}/>
+						{/*ErrorBoundary hide real error from users and show message what you want*/}
+						<ErrorBoundary>
+							<CardList robots={filteredRobots}/>
+						</ErrorBoundary>
 					</Scroll>
 				</div>
 			);
