@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/CardTemplate/static/css/main.9dd1479d.css",
-    "main.js": "/CardTemplate/static/js/main.af35599e.js",
-    "static/media/SEGA.woff": "/CardTemplate/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
-    "index.html": "/CardTemplate/index.html",
-    "main.9dd1479d.css.map": "/CardTemplate/static/css/main.9dd1479d.css.map",
-    "main.af35599e.js.map": "/CardTemplate/static/js/main.af35599e.js.map"
+    "main.css": "/CardTemplate/index.html/static/css/main.83a133c8.css",
+    "main.js": "/CardTemplate/index.html/static/js/main.af35599e.js",
+    "static/media/SEGA.woff": "/CardTemplate/index.html/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/CardTemplate/index.html/index.html",
+    "main.83a133c8.css.map": "/CardTemplate/index.html/static/css/main.83a133c8.css.map",
+    "main.af35599e.js.map": "/CardTemplate/index.html/static/js/main.af35599e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dd1479d.css",
+    "static/css/main.83a133c8.css",
     "static/js/main.af35599e.js"
   ]
 }
